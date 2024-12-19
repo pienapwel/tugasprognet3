@@ -1,4 +1,4 @@
-<?php
+it<?php
 include 'config.php';
 
 function statusAC($suhu, $kelembapan) {
@@ -61,7 +61,7 @@ if (isset($_POST['histori'])) {
 </head>
 <body>
     <div class="container">
-        <h2>Sistem Status AC</h2>
+        <h2>Sistem Status AC edit</h2>
 
         <?php if (!empty($message)): ?>
             <p><?php echo $message; ?></p>
